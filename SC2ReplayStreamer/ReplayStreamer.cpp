@@ -43,7 +43,7 @@ void ReplayStreamer::OnBuildingConstructionComplete(const sc2::Unit * unit)
 		cout << self_build_ID << " " << Current_GameLoop << endl;
 		
 }*/
-//Because every unit was created and have a unique tag, so use food_requerede and UNIT_TYPEID to determine whether the building of units.
+//Because every unit was created and have a unique tag, so use food_requerede and UNIT_TYPEID to determine whether the building or units.
 void ReplayStreamer::OnUnitCreated(const sc2::Unit *unit)
 {
 	count++;
