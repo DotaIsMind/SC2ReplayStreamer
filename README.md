@@ -10,5 +10,5 @@ CLI parameter to override replay file path
 Interoperability with the Sc2LadderServer, probably via the SC2LadderWebHost
 
 # Replay::OnUnitCreatedfunction abnormal condition
-2019/4/1 The result of this function void Replay::OnUnitCreated is more than the actual number in the replays, and this problem has been solved, more details are available here ->[https://github.com/Blizzard/s2client-api/issues/299].
-2019/4/10 Now we can collect data from a batch of replays, and I only collected replays of Zerg professional players in WESG 2018 and IEM-Katowice-2019(Two international competitions for StarCraft II, if you are a StarCraft player, you should be familiar with them)
+* 2019/4/1 The result of this function void Replay::OnUnitCreated is more than the actual number in the replays, and this problem has been solved, more details are available here ->[https://github.com/Blizzard/s2client-api/issues/299].
+* 2019/4/10 Now we can collect data from a batch of replays, and I only collected replays of Zerg professional players in WESG 2018 and IEM-Katowice-2019(Two international competitions for StarCraft II, if you are a StarCraft player, you should be familiar with them)
